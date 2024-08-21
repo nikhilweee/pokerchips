@@ -1,0 +1,15 @@
+body {
+    --text-primary: #DDEEFF;
+    --text-error: #F21212;
+    --bg-primary: #0F0F0F;
+}
+
+body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: system-ui;
+    display: flex;
+    flex-direction: column;
+    max-width: 768px;
+    margin: 0 auto;
+}

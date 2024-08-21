@@ -1,0 +1,13 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "type": "module"
+}
